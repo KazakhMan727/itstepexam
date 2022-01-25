@@ -1,0 +1,656 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* шапка сайта */
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 35%;
+    height: 100%;
+    border: 1px dashed blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > a{
+    text-decoration: none;
+    color: #56B280;
+    font-weight: 700;
+}
+
+.logoIMG{
+    width: 34px;
+    height: 34px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+
+.menu{
+    width: 30%;
+    height: 100%;
+    border: 1px dashed green;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subMenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subMenu > a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+.account{
+    width: 35%;
+    height: 100%;
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subAccount{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accountIMG{
+    width: 34px;
+    height: 34px;
+    background-image: url(profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cartIMG{
+    width: 34px;
+    height: 34px;
+    background-image: url(cart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* шапка сайта */
+
+
+
+
+
+/* главный блок */
+.mainBlock{
+    width: 100%;
+    height: 580px;
+    border: 1px dashed red;
+    background-image: url(bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subMainBlock{
+    width: 37%;
+    height: 47%;
+    border: 1px dashed green;
+    border-radius: 2px;
+    background: rgba(247, 248, 250, 0.8);
+    backdrop-filter: blur(40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subSubMainBlock{
+    width: 83%;
+    height: 87%;
+    border: 1px dashed purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mainBlockTitle{
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mainBlockInfo{
+    margin-top: -32px;
+    font-size: 17px;
+}
+
+.subSubMainBlock > button{
+    margin-top: 20px;
+    width: 55%;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: #56B280;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* главный блок */
+
+
+
+
+
+/* продукция */
+.products{
+    width: 100%;
+    height: 700px;
+    border: 1px dashed red;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subProducts{
+    width: 65%;
+    height: 72%;
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: column;
+}
+
+.productsBlockText{
+    width: 100%;
+    height: 20%;
+    border: 1px dashed blue;
+    text-align: center;
+}
+
+.productsBlockTitle{
+    margin-top: -4px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.productsBlockSubtitle{
+    margin-top: -25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5e6e89;
+}
+
+.column{
+    width: 100%;
+    height: 80%;
+    border: 1px dashed blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    width: 100%;
+    height: 47%;
+    border: 1px dashed purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productBlock{
+    width: 23%;
+    height: 100%;
+    border: 1px dashed goldenrod;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productIMGBG{
+    width: 100%;
+    height: 68%;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.productIMG{
+    width: 75%;
+    height: 90%;
+    border: 1px dashed darkcyan;
+}
+
+.productIMG > img{
+    width: 100%;
+    height: 100%;
+}
+
+.productInfo{
+    width: 80%;
+    height: 32%;
+}
+
+.productName{
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.productCost{
+    width: 100%;
+    height: 50%;
+    text-align: right;
+    font-size: 18px;
+    color: #56B280;
+    font-weight: 700;
+}
+/* продукция */
+
+
+
+
+
+/* информация */
+.information{
+    width: 100%;
+    height: 650px;
+    border: 1px dashed red;
+    background-color: #F7F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subInformation{
+    width: 90%;
+    height: 75%;
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: row;
+}
+
+.infoText{
+    width: 50%;
+    height: 90%;
+    border: 1px dashed blue;
+}
+
+.infoTitle{
+    margin-top: -6px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.infoSubtitle{
+    margin-top: -35px;
+    color: #56B280;
+}
+
+.description{
+    margin-top: -10px;
+    width: 100%;
+    height: 30%;
+    border: 1px dashed purple;
+}
+
+.subDescription{
+    width: 93%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkIMG{
+    width: 15px;
+    height: 15px;
+    background-image: url(check.png);
+    background-size: cover;
+}
+
+.infoText > button{
+    margin-top: 50px;
+    width: 170px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background-color: #56B280;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.infoIMG{
+    width: 50%;
+    height: 90%;
+    border: 1px dashed blue;
+    display: flex;
+    align-items: flex-end;
+}
+
+.subInfoIMG{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.infoBlockIMG{
+    width: 75%;
+    height: 95%;
+    border: 1px dashed purple;
+    background-image: url(infoBlockIMG.png);
+    background-size: cover;
+}
+/* информация */
+
+
+
+
+
+/* отзывы */
+.testimonials{
+    width: 100%;
+    height: 500px;
+    border: 1px dashed red;
+    background-color: #EEF7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subTestimonials{
+    position: relative;
+    width: 65%;
+    height: 70%;
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewsTitle{
+    margin-top: -5px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.reviewsSubtitle{
+    margin-top: -25px;
+    font-size: 18px;
+    color: #5e6e89;
+    font-weight: 600;
+}
+
+.reviewsRow{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    border: 1px dashed blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review{
+    width: 31.5%;
+    height: 100%;
+    border: 1px dashed goldenrod;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subReview{
+    width: 75%;
+    height: 85%;
+    border: 1px dashed purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.customerPhoto{
+    width: 100%;
+    height: 60%;
+    border: 1px dashed brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo > img{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.stars{
+    width: 70%;
+    height: 25px;
+    border: 1px dashed darkcyan;
+    background-image: url(stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customerInfo{
+    width: 100%;
+    height: 60%;
+    border: 1px dashed brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.customerName{
+    margin-top: -15px;
+    color: #5e6e89;
+}
+/* отзывы */
+
+
+
+
+
+/* популярная продукция */
+.popularProducts{
+    width: 100%;
+    height: 450px;
+    border: 1px dashed red;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subPopular{
+    width: 65%;
+    height: 72%;
+    border: 1px dashed green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularBlockTitle{
+    margin-top: -7px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.popularBlockSubtitle{
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5e6e89;
+}
+
+.popularProductsRow{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* популярная продукция */
+
+
+
+
+/* подвал сайта (с детьми) */
+.footer{
+    width: 100%;
+    height: 425px;
+    border: 1px dashed red;
+}
+
+.darkFooter{
+    width: 100%;
+    height: 350px;
+    background-color: #272727;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subFooter{
+    width: 65%;
+    height: 70%;
+    border: 1px dashed green;
+}
+
+hr{
+    margin-top: 0;
+    width: 100%;
+    border: 0.5px solid #FFFFFF;
+}
+
+.footerInfo{
+    margin-top: -7px;
+    width: 100%;
+    height: 80%;
+    border: 1px dashed blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLogoBlock{
+    width: 50%;
+    height: 100%;
+    border: 1px dashed purple;
+    display: flex;
+    flex-direction: column
+}
+
+.subFooterLogoBlock{
+    width: 100%;
+    height: 27%;
+    border: 1px dashed brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.subFooterLogoBlock > a{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.footerDescription{
+    font-size: 20px;
+}
+
+.subFooterInfoBlock{
+    width: 50%;
+    height: 100%;
+    border: 1px dashed purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerInfoBlock{
+    width: 25%;
+    height: 100%;
+    border: 1px dashed darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerInfoBlock > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.copyright{
+    width: 100%;
+    height: 75px;
+    background-color: #e5e5e5;
+    color: #5e6e89;
+    display: flex;
+    justify-content: center;
+}
+
+.subCopyright{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* подвал сайта */
