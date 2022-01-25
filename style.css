@@ -449,7 +449,7 @@ body{
 
 .stars{
     width: 70%;
-    height: 25px;
+    height: 30px;
     background-image: url(Stars.png);
     background-repeat: no-repeat;
     background-size: cover;
