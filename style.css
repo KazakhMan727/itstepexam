@@ -234,7 +234,7 @@ body{
 }
 
 .productIMG{
-    width: 65%;
+    width: 75%;
     height: 90%;
 }
 
@@ -449,7 +449,7 @@ body{
 
 .stars{
     width: 70%;
-    height: 30px;
+    height: 25px;
     background-image: url(Stars.png);
     background-repeat: no-repeat;
     background-size: cover;
