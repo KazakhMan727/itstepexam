@@ -16,7 +16,6 @@ body{
 .logo{
     width: 35%;
     height: 100%;
-    border: 1px dashed blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,7 +38,6 @@ body{
 .menu{
     width: 30%;
     height: 100%;
-    border: 1px dashed green;
     font-size: 17px;
     display: flex;
     flex-direction: row;
@@ -65,7 +63,6 @@ body{
 .account{
     width: 35%;
     height: 100%;
-    border: 1px dashed green;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -106,7 +103,6 @@ body{
 .mainBlock{
     width: 100%;
     height: 580px;
-    border: 1px dashed red;
     background-image: url(bg-image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,7 +115,6 @@ body{
 .subMainBlock{
     width: 37%;
     height: 47%;
-    border: 1px dashed green;
     border-radius: 2px;
     background: rgba(247, 248, 250, 0.8);
     backdrop-filter: blur(40px);
@@ -131,7 +126,6 @@ body{
 .subSubMainBlock{
     width: 83%;
     height: 87%;
-    border: 1px dashed purple;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +164,6 @@ body{
 .products{
     width: 100%;
     height: 700px;
-    border: 1px dashed red;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -181,7 +174,6 @@ body{
 .subProducts{
     width: 65%;
     height: 72%;
-    border: 1px dashed green;
     display: flex;
     flex-direction: column;
 }
@@ -189,7 +181,6 @@ body{
 .productsBlockText{
     width: 100%;
     height: 20%;
-    border: 1px dashed blue;
     text-align: center;
 }
 
@@ -209,7 +200,6 @@ body{
 .column{
     width: 100%;
     height: 80%;
-    border: 1px dashed blue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -218,7 +208,6 @@ body{
 .row{
     width: 100%;
     height: 47%;
-    border: 1px dashed purple;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -227,7 +216,6 @@ body{
 .productBlock{
     width: 23%;
     height: 100%;
-    border: 1px dashed goldenrod;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -247,7 +235,6 @@ body{
 .productIMG{
     width: 75%;
     height: 90%;
-    border: 1px dashed darkcyan;
 }
 
 .productIMG > img{
@@ -286,7 +273,6 @@ body{
 .information{
     width: 100%;
     height: 650px;
-    border: 1px dashed red;
     background-color: #F7F8FA;
     display: flex;
     justify-content: center;
@@ -296,7 +282,6 @@ body{
 .subInformation{
     width: 90%;
     height: 75%;
-    border: 1px dashed green;
     display: flex;
     flex-direction: row;
 }
@@ -304,7 +289,6 @@ body{
 .infoText{
     width: 50%;
     height: 90%;
-    border: 1px dashed blue;
 }
 
 .infoTitle{
@@ -322,7 +306,6 @@ body{
     margin-top: -10px;
     width: 100%;
     height: 30%;
-    border: 1px dashed purple;
 }
 
 .subDescription{
@@ -354,7 +337,6 @@ body{
 .infoIMG{
     width: 50%;
     height: 90%;
-    border: 1px dashed blue;
     display: flex;
     align-items: flex-end;
 }
@@ -370,7 +352,6 @@ body{
 .infoBlockIMG{
     width: 75%;
     height: 95%;
-    border: 1px dashed purple;
     background-image: url(infoBlockIMG.png);
     background-size: cover;
 }
@@ -384,7 +365,6 @@ body{
 .testimonials{
     width: 100%;
     height: 500px;
-    border: 1px dashed red;
     background-color: #EEF7F2;
     display: flex;
     justify-content: center;
@@ -395,7 +375,6 @@ body{
     position: relative;
     width: 65%;
     height: 70%;
-    border: 1px dashed green;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -419,7 +398,6 @@ body{
     bottom: 0;
     width: 100%;
     height: 70%;
-    border: 1px dashed blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -428,7 +406,6 @@ body{
 .review{
     width: 31.5%;
     height: 100%;
-    border: 1px dashed goldenrod;
     border-radius: 5px;
     background-color: #FFFFFF;
     display: flex;
@@ -439,7 +416,6 @@ body{
 .subReview{
     width: 75%;
     height: 85%;
-    border: 1px dashed purple;
     display: flex;
     flex-direction: column;
 }
@@ -447,7 +423,6 @@ body{
 .customerPhoto{
     width: 100%;
     height: 60%;
-    border: 1px dashed brown;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -472,7 +447,6 @@ body{
 .stars{
     width: 70%;
     height: 25px;
-    border: 1px dashed darkcyan;
     background-image: url(stars.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -481,7 +455,6 @@ body{
 .customerInfo{
     width: 100%;
     height: 60%;
-    border: 1px dashed brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,7 +481,6 @@ body{
 .popularProducts{
     width: 100%;
     height: 450px;
-    border: 1px dashed red;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -518,7 +490,6 @@ body{
 .subPopular{
     width: 65%;
     height: 72%;
-    border: 1px dashed green;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -553,7 +524,6 @@ body{
 .footer{
     width: 100%;
     height: 425px;
-    border: 1px dashed red;
 }
 
 .darkFooter{
@@ -569,7 +539,6 @@ body{
 .subFooter{
     width: 65%;
     height: 70%;
-    border: 1px dashed green;
 }
 
 hr{
@@ -582,7 +551,6 @@ hr{
     margin-top: -7px;
     width: 100%;
     height: 80%;
-    border: 1px dashed blue;
     display: flex;
     flex-direction: row;
 }
@@ -590,7 +558,6 @@ hr{
 .footerLogoBlock{
     width: 50%;
     height: 100%;
-    border: 1px dashed purple;
     display: flex;
     flex-direction: column
 }
@@ -598,7 +565,6 @@ hr{
 .subFooterLogoBlock{
     width: 100%;
     height: 27%;
-    border: 1px dashed brown;
     display: flex;
     flex-direction: row;
 }
@@ -617,7 +583,6 @@ hr{
 .subFooterInfoBlock{
     width: 50%;
     height: 100%;
-    border: 1px dashed purple;
     display: flex;
     justify-content: space-evenly;
 }
@@ -625,7 +590,6 @@ hr{
 .footerInfoBlock{
     width: 25%;
     height: 100%;
-    border: 1px dashed darkcyan;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
